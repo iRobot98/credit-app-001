@@ -1,0 +1,139 @@
+1685445044146 Caught exception: listen EACCES: permission denied 8080- Exception origin: Error: listen EACCES: permission denied 8080-
+    at Server.setupListenHandle [as _listen2] (node:net:1723:21)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1887:5)
+    at Function.listen (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:14:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685445869473 Caught exception: listen EADDRINUSE: address already in use :::8080 Exception origin: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685445963486 Caught exception: listen EADDRINUSE: address already in use :::8080 Exception origin: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685446343294 Caught exception: listen EADDRINUSE: address already in use :::8080 Exception origin: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685446555674 Caught exception: The "id" argument must be of type string. Received undefined Exception origin: TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:399:5)
+    at validateString (node:internal/validators:163:11)
+    at Module.require (node:internal/modules/cjs/loader:1134:3)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:8:13)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685446613812 Caught exception: Router.use() requires a middleware function but got a Object Exception origin: TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+1685446676423 404 GET ::ffff:127.0.0.1 /app
+1685446767532 404 GET ::1 /app
+1685446769042 404 GET ::1 /app
+1685446859821 200 GET ::1 /
+1685446861708 404 GET ::1 /index.css
+1685447061611 404 GET ::1 /lion
+1685447074681 Caught exception: favicon is not defined Exception origin: ReferenceError: favicon is not defined
+    at Object.<anonymous> (C:\Users\paulk\Documents\Judah\Credit-App\credit-app-001\app.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+1685447080605 404 GET ::1 /lion
+1685447102762 304 GET ::1 /
+1685447102880 404 GET ::1 /index.css
+1685447162906 404 GET ::1 /
+1685447167721 404 GET ::1 /lion
+1685447191126 404 GET ::1 /lion
+1685447196230 200 GET ::1 /
+1685447313495 200 GET ::1 /
+1685447313980 404 GET ::1 /static/js/main.7956e30f.js
+1685447314055 404 GET ::1 /static/css/main.073c9b0a.css
+1685447314219 404 GET ::1 /manifest.json
+1685447320705 304 GET ::1 /
+1685447320772 404 GET ::1 /static/js/main.7956e30f.js
+1685447320791 404 GET ::1 /static/css/main.073c9b0a.css
+1685447320882 404 GET ::1 /manifest.json
+1685447322637 304 GET ::1 /
+1685447322696 404 GET ::1 /static/js/main.7956e30f.js
+1685447322730 404 GET ::1 /static/css/main.073c9b0a.css
+1685447322858 404 GET ::1 /manifest.json
+1685447359051 404 GET ::1 /static/css/main.073c9b0a.css
+1685447359059 404 GET ::1 /manifest.json
+1685447389959 200 GET ::1 /
+1685447390043 404 GET ::1 /static/js/main.7956e30f.js
+1685447390068 404 GET ::1 /static/css/main.073c9b0a.css
+1685447390348 404 GET ::1 /manifest.json
+1685447390364 404 GET ::1 /favicon.ico
+1685447415354 304 GET ::1 /
+1685447415505 200 GET ::1 /static/js/main.7956e30f.js
+1685447415520 200 GET ::1 /static/css/main.073c9b0a.css
+1685447415758 200 GET ::1 /static/css/main.073c9b0a.css.map
+1685447415910 200 GET ::1 /static/js/main.7956e30f.js.map
+1685447416171 200 GET ::1 /static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg
+1685447416391 200 GET ::1 /manifest.json
+1685447416745 200 GET ::1 /logo192.png
+1685447463699 200 GET ::1 /
+1685447464252 200 GET ::1 /favicon.ico
+1685447477915 404 GET ::1 /a
+1685447483541 304 GET ::1 /
+1685447549365 200 GET ::1 /
+1685447549470 200 GET ::1 /static/css/main.073c9b0a.css
+1685447549500 200 GET ::1 /static/js/main.7956e30f.js
+1685447549780 304 GET ::1 /static/css/main.073c9b0a.css.map
+1685447549829 304 GET ::1 /static/js/main.7956e30f.js.map
+1685447549880 200 GET ::1 /static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg
+1685447549975 304 GET ::1 /manifest.json
+1685447550034 200 GET ::1 /favicon.ico
+1685447550085 304 GET ::1 /logo192.png
+1685447554371 404 GET ::1 /lion
+1685447674366 200 GET ::1 /lion
+1685448237325 404 GET ::1 /lion
+1685448240328 304 GET ::1 /
+1685448240446 304 GET ::1 /static/js/main.7956e30f.js
+1685448240475 304 GET ::1 /static/css/main.073c9b0a.css
+1685448240741 304 GET ::1 /static/css/main.073c9b0a.css.map
+1685448240784 304 GET ::1 /static/js/main.7956e30f.js.map
+1685448240857 304 GET ::1 /static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg
+1685448240954 304 GET ::1 /favicon.ico
+1685448240968 304 GET ::1 /manifest.json
+1685448241018 304 GET ::1 /logo192.png
